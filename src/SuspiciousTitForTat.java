@@ -1,4 +1,4 @@
-public class TitForTat extends BasePrisoner {
+public class SuspiciousTitForTat extends BasePrisoner {
     private boolean isFirstMove = true;
     private boolean opponentLastMove;
 
@@ -6,7 +6,7 @@ public class TitForTat extends BasePrisoner {
     protected boolean decideMove() {
         if (isFirstMove) {
             isFirstMove = false;
-            return COOPERATE;
+            return DEFECT;
         } else {
             if (opponentLastMove == COOPERATE)
                 return COOPERATE;
