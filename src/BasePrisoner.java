@@ -8,6 +8,7 @@ public abstract class BasePrisoner {
     protected boolean playMove() {
         return decideMove();
     }
+
     public void setOpponentLastMove(boolean opponentLastMove) {
     }
 

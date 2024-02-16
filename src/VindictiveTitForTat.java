@@ -1,4 +1,4 @@
-public class VindictiveTitForTat extends BasePrisoner{
+public class VindictiveTitForTat extends BasePrisoner {
     private boolean isFirstMove = true;
     private boolean opponentLastMove;
 

@@ -14,6 +14,7 @@ public class TitForTat extends BasePrisoner {
                 return DEFECT;
         }
     }
+
     public void setOpponentLastMove(boolean opponentLastMove) {
         this.opponentLastMove = opponentLastMove;
     }

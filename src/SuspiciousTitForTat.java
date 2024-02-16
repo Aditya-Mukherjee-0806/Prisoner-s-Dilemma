@@ -14,6 +14,7 @@ public class SuspiciousTitForTat extends BasePrisoner {
                 return DEFECT;
         }
     }
+
     public void setOpponentLastMove(boolean opponentLastMove) {
         this.opponentLastMove = opponentLastMove;
     }
