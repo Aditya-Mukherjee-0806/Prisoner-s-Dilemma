@@ -1,4 +1,4 @@
-public class GrimClicker extends BasePrisoner{
+public class GrimTrigger extends BasePrisoner{
     boolean opponentDefectedOnce = false;
     @Override
     protected boolean decideMove() {

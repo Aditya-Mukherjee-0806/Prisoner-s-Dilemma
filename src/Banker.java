@@ -2,7 +2,7 @@ public class Banker {
     final boolean COOPERATE = false;
     final boolean DEFECT = true;
     NoisyTitForTat player1 = new NoisyTitForTat();
-    GrimClicker player2 = new GrimClicker();
+    GrimTrigger player2 = new GrimTrigger();
     boolean player1Move;
     boolean player2Move;
 
