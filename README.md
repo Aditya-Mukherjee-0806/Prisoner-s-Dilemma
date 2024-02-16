@@ -6,11 +6,12 @@ Project inspired from [Veritasium's video on Prisoner's Dilemma](https://www.you
 
 [Prisoner’s Dilemma, Stanford](https://plato.stanford.edu/entries/prisoner-dilemma/)
 
-Current strategies in the project :-
+Current strategies in the project:-
 - Always Cooperate
 - Always Defect
-- Tit For Tat(Cooperates on first move and afterwards repeats opponent's move)
-- Forgiving Tit For Tat(Tit For Tat with extra 10% chance to Cooperate)
-- Vindictive Tit For Tat(Tit For Tat with extra 10% chance to Defect)
-- Noisy Tit For Tat(Tit For Tat with 10% chance to play opposite choice)
-- Grim Clicker(Cooperates on first move and always Defects after opponent defects once)
+- Tit For Tat (Cooperates on first move and afterwards repeats opponent's move)
+- Suspicious Tit For Tat (Defects on first move and afterwards repeats opponent's move)
+- Forgiving Tit For Tat (Tit For Tat with extra 10% chance to Cooperate)
+- Vindictive Tit For Tat (Tit For Tat with extra 10% chance to Defect)
+- Noisy Tit For Tat (Tit For Tat with 10% chance to play opposite choice)
+- Grim Clicker (Cooperates on first move and always Defects after opponent defects once)
