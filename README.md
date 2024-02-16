@@ -9,9 +9,11 @@ Project inspired from [Veritasium's video on Prisoner's Dilemma](https://www.you
 Current strategies in the project:-
 - **Always Cooperate**
 - **Always Defect**
-- **Tit For Tat** (Cooperates on first move and afterwards repeats opponent's move)
-- **Suspicious Tit For Tat** (Defects on first move and afterwards repeats opponent's move)
+- **Tit For Tat** (Cooperates on first move and afterward repeats opponent's move)
+- **Suspicious Tit For Tat** (Defects on first move and afterward repeats opponent's move)
 - **Forgiving Tit For Tat** (Tit For Tat with extra 10% chance to Cooperate)
 - **Vindictive Tit For Tat** (Tit For Tat with extra 10% chance to Defect)
-- **Noisy Tit For Tat** (Tit For Tat with 10% chance to play opposite choice)
+- **Noisy Tit For Tat** (Tit For Tat with 10% chance to play opposite of choice)
 - **Grim Trigger** (Cooperates initially but always Defects if opponent defects once)
+- **Alternator** (Cooperates on first move and then alternates on each following move)
+- **Appeaser** (Cooperates initially and alternates each time opponent defects)
